@@ -1,0 +1,9 @@
+inquiry_id,date,tenant_name,property_id,inquiry_type,message,status,response_date
+INQ001,2024-01-10,"Jan de Vries",P1001,"Rent Payment","How can I set up automatic rent payment?","Resolved",2024-01-11
+INQ002,2024-01-12,"Maria Garcia",P1001,"Maintenance","My neighbor is making excessive noise at night","In Progress",
+INQ003,2024-01-14,"Pieter Bakker",P1002,"Lease","Can I extend my lease for another year?","Resolved",2024-01-15
+INQ004,2024-01-16,"Sophie Visser",P1003,"Utilities","My water bill seems unusually high this month","Pending",
+INQ005,2024-01-18,"Emma de Wit",P1005,"Parking","Are there additional parking spots available?","Resolved",2024-01-19
+INQ006,2024-01-20,"Willem Jansen",P1007,"Maintenance","How do I report a maintenance issue?","Resolved",2024-01-20
+INQ007,2024-01-22,"Tech Startup NL",P1006,"Contract","We need additional office space","In Progress",
+INQ008,2024-01-24,"Bedrijf Solutions BV",P1004,"Billing","Invoice number INV-2024-001 needs clarification","Pending",

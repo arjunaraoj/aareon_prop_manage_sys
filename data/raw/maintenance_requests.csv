@@ -1,0 +1,9 @@
+request_id,property_id,tenant_id,issue_date,issue_type,description,priority,status,assigned_to,completion_date
+MR001,P1001,T001,2024-01-15,"Plumbing","Leaking faucet in kitchen","Medium","In Progress","John Smith",,
+MR002,P1002,T003,2024-01-18,"Electrical","Flickering lights in hallway","High","Assigned","Emma Johnson",,
+MR003,P1003,T004,2024-01-20,"Heating","Radiator not working in bedroom","High","Completed","Mike Wilson","2024-01-22"
+MR004,P1005,T006,2024-01-22,"Appliance","Dishwasher not draining","Low","Pending","John Smith",,
+MR005,P1007,T008,2024-01-23,"Structural","Door lock malfunctioning","Medium","In Progress","Emma Johnson",,
+MR006,P1001,T002,2024-01-24,"Plumbing","Clogged sink in bathroom","Medium","Assigned","Mike Wilson",,
+MR007,P1004,T005,2024-01-25,"HVAC","Air conditioning not cooling","High","In Progress","John Smith",,
+MR008,P1008,None,2024-01-26,"Maintenance","Common area lighting needs replacement","Medium","Pending",,

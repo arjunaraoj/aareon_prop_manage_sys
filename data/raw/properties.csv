@@ -1,0 +1,9 @@
+property_id,property_name,address,city,postal_code,property_type,total_units,year_built,last_renovation
+P1001,"Sunrise Apartments","123 Main Street","Amsterdam","1011AB","Residential",24,2005,2020
+P1002,"Harbor View Towers","45 Harbor Boulevard","Rotterdam","3011CD","Mixed-Use",48,2010,2022
+P1003,"Greenfield Gardens","78 Park Avenue","Utrecht","3512EF","Residential",12,1998,2019
+P1004,"Business Center One","100 Commerce Drive","The Hague","2514GH","Commercial",8,2015,2023
+P1005,"Riverside Complex","22 River Road","Amsterdam","1022JK","Mixed-Use",36,2002,2021
+P1006,"Central Plaza","5 Central Square","Eindhoven","5611LM","Commercial",15,2018,2023
+P1007,"Oakwood Estates","150 Oak Street","Groningen","9712NP","Residential",32,1995,2018
+P1008,"Marina Towers","88 Marina Way","Rotterdam","3022QR","Residential",60,2012,2022

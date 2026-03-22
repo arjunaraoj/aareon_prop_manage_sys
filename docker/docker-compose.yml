@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  aareon-ai-agent:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: aareon-ai-agent
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - LOG_LEVEL=INFO
+    volumes:
+      - ../data:/app/data
+      - ../config:/app/config
+    ports:
+      - "8000:8000"
+    networks:
+      - aareon-network
+
+  chroma-db:
+    image: chromadb/chroma:latest
+    container_name: chroma-db
+    volumes:
+      - ../data/chroma_db:/chroma/chroma
+    ports:
+      - "8001:8000"
+    networks:
+      - aareon-network
+
+networks:
+  aareon-network:
+    driver: bridge
